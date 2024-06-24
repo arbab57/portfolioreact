@@ -1,0 +1,168 @@
+.con-about {
+    width: 100%;
+    background-color: black;
+    border-radius: 15px;
+    padding: 3rem;
+}
+
+.con-heading {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+}
+
+.main-heading {
+    color: white;
+    font-size: 4.5rem;
+    font-weight: 700;
+}
+
+.con-subtext {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.main-subtext {
+    color: #A6A6A6;
+    width: 80%;
+    font-size: 1.25rem;
+    
+}
+
+.section-02 {
+    padding-bottom: 4rem;
+}
+
+.section-02 h2 {
+    color: white;
+    font-size: 2.5rem;
+    padding: 2rem 0;
+}
+
+.con-service-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 1.5rem;
+}
+
+.service-card {
+    display: flex;
+    gap: 1rem;
+    width: 48%;
+    border: 1px solid #212425;
+    border-radius: 10px;
+    padding: 1rem;
+    padding-right: 2rem;
+}
+
+.icon-service {
+    color: red;
+    font-size: 2.5rem;
+}
+
+.service-card h3 {
+    color: white;
+    font-size: 2rem;
+}
+
+.service-card p {
+    color: #A6A6A6;
+    font-size: 1.5rem;
+}
+
+.con-clients {
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: #0D0D0D;
+}
+
+.con-clients h2 {
+    color: white;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.con-brand-imgs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.con-brand-imgs img {
+    width: 120px;
+}
+
+.copy {
+    text-align: center;
+    color: #A6A6A6;
+    padding: 1.4rem;
+    margin-top: 0 !important;
+}
+
+
+@media screen and ( max-width: 1200px) {
+
+.section-02, .section-01 {
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+}
+
+}
+
+
+@media screen and ( max-width: 900px) {
+
+   .con-aside {
+    display: none;
+   }
+    
+    }
+
+@media screen and ( max-width: 768px) {
+
+.service-card {
+    width: 100% !important;
+}
+
+.main-subtext {
+    width: 100% !important;
+}
+
+.main-heading {
+    font-size: 2.5rem !important;
+}
+.con-brand-imgs img {
+    width: 30% !important;
+}
+.con-brand-imgs {
+justify-content: center !important;
+gap: 0.8rem;
+row-gap: 1rem;
+}
+
+
+
+}
+
+
+@media screen and ( max-width: 400px) {
+    .section-01, .section-02 {
+        padding: 0.5rem !important;
+    }
+    .con-brand-imgs img {
+        width: 50% !important;
+    }
+
+    .con-heading {
+        flex-direction: column;
+    }
+}
+    
+
+

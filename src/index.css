@@ -1,0 +1,12 @@
+#root {
+    display: flex;
+   gap: 1rem;
+   padding: 0 1rem;
+    background-color: #3d3d3d;
+}
+
+@media screen and ( max-width: 992px) {
+    #root {
+        padding: 0 !important;
+    }
+}

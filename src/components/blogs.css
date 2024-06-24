@@ -1,0 +1,45 @@
+.con-blogs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.blog-img {
+    background-color: #bcbcbc;
+    width: 100%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    border-radius: inherit;
+    margin-bottom: 1.8rem;
+}
+
+.card-blog {
+    width: 48%;
+    border-radius: 15px;
+    padding: 2rem;
+    border: 2px solid #212425;
+}
+
+.blog-date {
+    margin-bottom: 0.5rem;
+}
+
+.con-date {
+    display: flex;
+    gap: 1rem;
+    font-size: 1.25rem;
+}
+
+@media screen and ( max-width: 1300px) {
+    .card-blog {
+        width: 100%;
+        padding: 1rem;
+        text-align: center;
+    }
+    .con-date {
+        justify-content: center;
+    }
+}
